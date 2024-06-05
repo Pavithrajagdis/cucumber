@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 54.88 s <<< FAILURE! -- in TestSuite
+cucumberoptions.Testngtestrunner.runScenario["search experience for product search in both home page and offer page.", "search and place the order for products"](2) -- Time elapsed: 38.86 s <<< FAILURE!
+java.lang.AssertionError: expected [Beetroot] but found [No data]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at stepdefinitions.offerpagestepdefinitions.validate_product_name_present_landing_is_same_as_offer_page(offerpagestepdefinitions.java:56)
+	at ✽.validate product name present landing is same as offer page(file:///C:/Users/pavij/eclipse-workspace/ACucumber/cucumber/src/test/java/features/searchproduct.feature:9)
+
